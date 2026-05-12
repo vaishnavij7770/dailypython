@@ -11,5 +11,11 @@ print(b)
 c=3.14
 print(c)
 
+d=True
+print(d)
+
+e=None
+print(e)
+
 
 
