@@ -37,6 +37,26 @@ elif temperature<35 and temperature>=25:
 else:
     print("Invalid temperature")
 
+a=11
+b=2
+c=45
+if a>b and a>c:
+    print("a is the largest")
+elif b>a and b>c:
+    print("b is the largest")
+else:
+    print("c is the largest")
+
+x= 5
+y= 10
+z= 15
+if x<y and x<z:
+    print("x is the smallest")
+elif y<x and y<z:
+    print("y is the smallest")
+else:
+    print("z is the smallest")
+
 
 
 

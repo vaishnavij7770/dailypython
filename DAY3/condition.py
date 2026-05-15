@@ -28,3 +28,9 @@ if e > 10 and e < 20:
     print("e is between 10 and 20")
 else:
     print("e is not between 10 and 20")
+
+f= 25
+if f < 0 or f > 100:
+    print("f is out of range")
+else:
+    print("f is within range")
