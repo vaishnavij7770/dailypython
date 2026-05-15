@@ -25,4 +25,17 @@ elif age<65:
 else:
     print("Senior")
 
+temperature = 30
+if temperature<0:
+    print("Freezing")
+elif temperature<10 and temperature>=0:
+    print("Cold")
+elif temperature<25 and temperature>=10:
+    print("Warm")
+elif temperature<35 and temperature>=25:
+    print("Hot")
+else:
+    print("Invalid temperature")
+    
+
 
