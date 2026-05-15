@@ -1,6 +1,6 @@
 #elif statement
 
-marks = 85
+marks = int(input("Enter marks: "))
 
 if marks<60:
     print("Grade: D")
@@ -36,6 +36,8 @@ elif temperature<35 and temperature>=25:
     print("Hot")
 else:
     print("Invalid temperature")
-    
+
+
+
 
 
