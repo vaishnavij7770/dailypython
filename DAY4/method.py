@@ -25,11 +25,24 @@
 l3=["apple","orange","banana","papaya"]
 print(l3)
 
-l3.insert(2,"kiwi")
+# l3.insert(2,"kiwi")
+# print(l3)
+
+# l3.pop(3)
+# print(l3)
+
+# l3.pop()
+# print(l3)
+
+# l4=l3.pop(2)
+# print(l4)
+
+l3.reverse()
 print(l3)
 
-l3.pop(3)
+l3.sort()
 print(l3)
 
-l3.pop()
+l3.sort(reverse=True)
 print(l3)
+
