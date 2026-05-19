@@ -10,3 +10,16 @@ print(sum(t1))
 
 cnt=t2.count(2)
 print(cnt)
+
+ind=t1.index(23)
+print(ind)
+
+
+rev=tuple(reversed(t1))
+print(rev)
+
+sor=tuple(sorted(t1))
+print(sor)
+
+
+
