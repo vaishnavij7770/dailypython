@@ -1,5 +1,5 @@
-l1=["python","java","c++","javascript"]
-l2=["js","html","css"]
+# l1=["python","java","c++","javascript"]
+# l2=["js","html","css"]
 
 # l1.append("ruby")
 # print(l1)
@@ -16,9 +16,20 @@ l2=["js","html","css"]
 # cnt=l2.count("js")
 # print(cnt)
 
-cn=l1.count("java")
-print(cn)
+# cn=l1.count("java")
+# print(cn)
 
-ind=l1.index("c++")
-print(ind)
+# ind=l1.index("c++")
+# print(ind)
 
+l3=["apple","orange","banana","papaya"]
+print(l3)
+
+l3.insert(2,"kiwi")
+print(l3)
+
+l3.pop(3)
+print(l3)
+
+l3.pop()
+print(l3)
