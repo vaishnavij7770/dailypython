@@ -14,7 +14,7 @@
 # print(ab)
 
 #string method
-s1="practical"
+s1="python practical"
 print(s1)
 
 s2=s1.capitalize()
@@ -24,3 +24,18 @@ print(s1.isupper())
 print(s1.islower())
 
 print(len(s1))
+
+s3=s1.replace("python","java")
+print(s3)
+
+s4=""
+l=['a','b','c','d']
+
+s5=s4.join(l)
+print(s5)
+
+s6=s1.index('p')
+print(s6)
+
+s7=s1.index('p',5,10)
+print(s7)
