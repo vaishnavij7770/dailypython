@@ -14,7 +14,7 @@
 # print(ab)
 
 #string method
-s1="python practical"
+s1="python practical and java practical"
 print(s1)
 
 s2=s1.capitalize()
@@ -39,3 +39,16 @@ print(s6)
 
 s7=s1.index('p',5,10)
 print(s7)
+
+s8=s1.partition("and")
+print(s8)
+
+s9=s1.split()
+print(s9)
+
+s10=s1.count('p')
+print(s10)
+
+s11=s1.count('a',5,25)
+print(s11)
+
