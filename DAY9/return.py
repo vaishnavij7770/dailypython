@@ -1,3 +1,4 @@
+#default function with return
 a=9         #global variable
 
 def logic():    
@@ -12,3 +13,21 @@ print(a)
 #print(a1)      #wrong way to print local variable
 
 print(logic())
+
+
+add=logic()
+print(add)
+
+
+#parameterizd function with return
+
+def swap(m,n):      #parameter/local variables
+    temp=m
+    m=n
+    n=temp
+    return m,n
+
+print(swap(8,9))
+
+result=swap(0,1)
+print(result)
