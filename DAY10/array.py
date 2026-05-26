@@ -13,14 +13,23 @@
 
 #from array import array
 
+#from array import *
+
+# import array as arr
+
+# ar1=arr.array('i',[2,3,4,5])
+# print(ar1)
+# print(type(ar1))
+
+
 from array import *
 
 ar1=array('i',[2,3,4,5])
 print(ar1)
 print(type(ar1))
 
-import array as arr
-
-ar1=arr.array('i',[2,3,4,5])
+ar1[3]=11
 print(ar1)
-print(type(ar1))
+
+ar1[2:5]=array('i',[2,3,4,5])
+print(ar1)
