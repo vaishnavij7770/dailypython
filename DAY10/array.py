@@ -22,7 +22,7 @@
 # print(type(ar1))
 
 
-from array import *
+from array import array
 
 ar1=array('i',[2,3,4,5])
 print(ar1)
@@ -33,3 +33,12 @@ print(ar1)
 
 ar1[2:5]=array('i',[2,3,4,5])
 print(ar1)
+
+del ar1[3]
+print(ar1)
+
+
+a=array('B',[1,3])
+# convert a to float array before concatenation to match typecode 'd'
+c=array('d', a)
+print(c)
