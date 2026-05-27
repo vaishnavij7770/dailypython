@@ -22,3 +22,7 @@ if os.path.exists("demo.txt"):
 
 else:
     print("file does not exists")
+
+with open("demo.txt","r") as e:
+    file=e.read()
+    print(file)
