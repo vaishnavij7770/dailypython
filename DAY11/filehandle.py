@@ -1,9 +1,18 @@
-import os
+# import os
+# a=open("demo.txt","r")
+# # print(a.read())
+# # print(a.read(5))
 
-a=open("demo.txt","r")
+# # print(a.readline())
+
+# for i in a:    # to run all lines in one time
+#     print(i)
+
+# b=open("demo.txt","w")
+# b.write("this is python date")
 
 
-print(a.read())
+c=open("demo.txt","a")
+c.write("python is prog lang")
 
-print(a.read(10))
 
