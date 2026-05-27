@@ -1,4 +1,4 @@
-# import os
+import os
 # a=open("demo.txt","r")
 # # print(a.read())
 # # print(a.read(5))
@@ -12,7 +12,13 @@
 # b.write("this is python date")
 
 
-c=open("demo.txt","a")
-c.write("python is prog lang")
+# c=open("demo.txt","a")
+# c.write("python is prog lang")
 
+# os.remove("demo.txt")
 
+if os.path.exists("demo.txt"):
+    os.remove("demo.txt")
+
+else:
+    print("file does not exists")
