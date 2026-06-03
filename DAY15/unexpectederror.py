@@ -43,11 +43,13 @@
 
 try:
     num=int(input("Enter a number: "))
-    if num%2==0:
-        print("Even number")
-
+    if num>0:
+        if num%2==0:
+            print("Even number")
+        else:
+            raise ValueError("Odd number")
     else:
-        raise ValueError("Odd number")
+        raise ValueError("Number is not positive")
 
 except Exception as e:
     print(e)
