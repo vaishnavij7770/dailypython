@@ -1,7 +1,9 @@
 import test1,test2
 
-from package1 import source1,source2
+# from package1 import source1,source2
 #from pacckage1 import *
+
+from package1 import source1, source2
 
 print("welcome to python")
 test1.t1()
