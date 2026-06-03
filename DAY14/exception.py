@@ -34,3 +34,6 @@ except ZeroDivisionError as z:
 except Exception as e:
 
     print(e)
+
+finally:
+    print("program executed successfully")
