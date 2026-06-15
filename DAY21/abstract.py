@@ -21,16 +21,21 @@
 # s = square()
 # s.sides()
         
-
+#ABC means abstract base class
+#ABC cannot make object
 from abc import ABC, abstractmethod
 class vehicle(ABC):
     @abstractmethod
     def milege(self):
-        print("milge given")
+        pass
+
+    def add(self):
+        print("this is add")
 
 class car(vehicle):
     def milege(self):
-        super().milege()
+        # super().milege()
+        # super().add()
         print("16")
 
 class scooter(vehicle):
