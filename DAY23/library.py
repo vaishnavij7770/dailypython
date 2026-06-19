@@ -50,3 +50,13 @@ a10=np.array([[5,5,5],[6,6,6]])
 for i in a10:
     for j in i:
         print(j,end=" ")
+
+a11=np.array([[[1,2],[2,1]],[[3,4],[4,3]]])
+
+# for i in a3:
+#     for j in a3:
+#         for k in a3:
+#             print(k)
+
+for i in np.nditer(a11):  # without using for loop
+    print(i)
