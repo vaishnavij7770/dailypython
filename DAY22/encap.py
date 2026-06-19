@@ -1,39 +1,39 @@
 #public
+
 class secure:
-    name="Vrush"
+    name="vrushali"
 
 s=secure()
-print(s.name)
+print(s.name)    
 
-#Protected
-#protected is also similar like public
-class more_secure:
-    _profile="Trainer"  #internal
+# protected
+class protect:
+    _girl = "trainer"
+    def _girl_method(self):
+        print("she is a strong girl")
+        
 
-m=more_secure()
-print(m._profile)
+# p=protect()
+# print(p._girl)   
 
-class authorize(more_secure):
-    print("This is authorize")
+
+class authorize(protect):
+    print("this is authorized")
 
 a=authorize()
-print(a._profile)
+print(a._girl)  
+a._girl_method()
 
-#private
+# private
 
-class fortune:
+class secrete:
     __wifi=5
     print(__wifi)
-
-    def show(self,__wifi):
+    # def _init_(self):
+    #     self.__wifi=3
+    
+    def show(self,__wifi):     
         print(__wifi)
-
-f=fortune()
-f.show(6)
-# print(f.__wifi)
-
-# class cravita(fortune):
-#     pass
-
-# c=cravita()
-# print(c.__wifi) #not printing directly
+p=secrete()
+p.show(7)
+# print(p.__wifi)
